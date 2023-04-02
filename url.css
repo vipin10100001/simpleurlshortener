@@ -1,0 +1,45 @@
+body {
+    text-align: left;
+    background-color: palegoldenrod;
+}
+form {
+text-align: center;
+flex-direction: column;
+}
+
+table {
+background-color: tomato;
+text-align: center;
+width: 70%;
+}
+
+input[type=url] {
+background-color: turquoise;
+width: 100%;
+padding: 7px 2px;
+box-sizing: border-box;
+}
+
+#button {
+font-size: medium;
+}
+
+#r {
+font-size: medium;
+}
+
+#foot {
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 10xrem;
+background-color: blueviolet;
+text-align: center;
+}
+
+.container {
+background-color: rgb(122, 122, 210);
+padding: 10px 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: medium;
+}

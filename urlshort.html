@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL SHORTENER PAGE</title>
+    <link rel="stylesheet" href="url.css">
+</head>
+<body>
+<header>
+    <center><h1>URL SHORTENER PAGE</h1></center>
+    <div class="container">
+        <nav>
+            <a href="">Home</a> | 
+            <a href="">About Us</a> |
+            <a href="">Our Services</a> |
+            <a href="">Contact Us</a> |
+            <a href="">Help</a>
+        </nav>
+    </div>
+    
+    <br>
+    <p>This is a page that shortens URLs that the users enter. A URL shortener page is a website that provides a service to shorten long URLs. The purpose of a URL shortener is to make it easier to share long links, particularly on social media platforms that have character limits, like Twitter.</p>
+   <p>The shortened URL will be displayed as an alert box.</p> 
+    <br>
+    <br>
+    <form id="shorten-form">
+        <center>
+            <table>
+                <th>
+                    <label>Enter URL:</label>
+                    <br>
+                    <input type="url" placeholder="https://www.example.com" required="required" id="url-input">
+                    <br>
+                    <br>
+                    <input type="submit" value="Shorten" id="button">
+                    <input type="reset" value="Reset" id="r">
+                </th>
+            </table>
+        </center>
+        <br>
+        <p id="shortened-url"></p>
+    </form> 
+    
+    <footer id="foot">
+        <table id="t">
+           <h5>Subscribe to Our Newsletter</h5>
+            <form>  
+                <label>Name:</label>
+                <input type="text">
+                <label>Email:</label>
+                <input type="email">
+                <br>
+                <br>
+                <input type="submit" value="Submit">
+                <input type="reset">
+            </form>
+        </table>
+    </footer>
+    
+</body>
+<script src="urls.js"></script>
+    
